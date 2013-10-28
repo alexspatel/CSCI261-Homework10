@@ -217,11 +217,11 @@ int getScore( int dice[], const int category )
 
 // Code from http://http://eecs.mines.edu/Courses/csci261/images/ArrayDemo.png 
 // Bubble Sort
-void sort( int dice[], int N = 5 )
+void sort( int dice[] )
 {
   /******** INSERT CODE HERE ********/
   bool swappedOne = true;
-
+  int N = 5;
   for( int pass = 1; pass < N && swappedOne; pass++ )
   {
 	  swappedOne = false;
